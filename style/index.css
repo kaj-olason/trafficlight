@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #cccccc;
+  display: flex;
+  justify-content: center;
+}
+
+.contaner {
+  background-color: #fff;
+  display: inline;
+}
+
+.lightBox {
+  width: 100%;
+  height: 200px;
+  width: 200px;
+  margin: 5px;
+}
+
+.box1 {
+  background-color: #ff0000;
+  border: 15px solid #8b0000;
+}
+
+.redSubBox1 {
+  background-color: #ff938e;
+  width: 100%;
+  height: 50%;
+}
+
+.redSubBox2 {
+  background-color: #ff0000;
+}
+
+.box2 {
+  background-color: #fffd03;
+  border: 15px solid #b8860c;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.yellowSubBox {
+  width: 50%;
+  height: 50%;
+}
+
+.yellowSubBoxOther {
+  width: 50%;
+  height: 50%;
+  background-color: #fffe9d;
+}
+
+.box3 {
+  background-color: #018001;
+  border: 15px solid #006300;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.greenSubBox {
+  width: 50%;
+  height: 50%;
+}
+
+.greenSubBoxOther {
+  width: 50%;
+  height: 50%;
+  background-color: #92bf8c;
+}
